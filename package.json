@@ -1,10 +1,10 @@
 {
   "name": "tiktok-hashtag-nft-",
   "version": "1.0.0",
-  "description": "Rube Goldberg github actions-based TikTok hashtag tracker",
+  "description": "TikTok hashtag NFT tracker built by The Wizard of Hahz",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 src/index.tsx --outfile=index.js"    
+    "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 --external:moment src/index.tsx --outfile=index.js"    
   },
   "author": "",
   "license": "ISC",
@@ -21,3 +21,4 @@
     "swr": "^1.2.2"
   }
 }
+

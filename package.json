@@ -1,7 +1,7 @@
 {
   "name": "tiktok-hashtag-nft-",
   "version": "1.0.0",
-  "description": "TikTok hashtag NFT tracker built by The Wizard of Hahz",
+  "description": "The Wizard of Hahz github actions-based TikTok hashtag tracker",
   "main": "index.js",
   "scripts": {
     "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 src/index.tsx --outfile=index.js"

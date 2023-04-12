@@ -1,5 +1,5 @@
 {
-  "name": "tiktok-hashtag-tracker",
+  "name": "tiktok-hashtag-nft-",
   "version": "1.0.0",
   "description": "Rube Goldberg github actions-based TikTok hashtag tracker",
   "main": "index.js",
@@ -13,10 +13,11 @@
     "chart.js": "^3.7.1",
     "chartjs-adapter-moment": "^1.0.0",
     "esbuild": "^0.14.25",
-    "react": "^16.14.0",
+    "react": "^17.0.2",
     "react-chartjs-2": "^4.0.1",
     "react-datepicker": "^4.7.0",
     "react-dom": "^17.0.2",
     "swr": "^1.2.2"
   }
 }
+

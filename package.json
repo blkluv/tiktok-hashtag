@@ -4,7 +4,7 @@
   "description": "Rube Goldberg github actions-based TikTok hashtag tracker",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 src/index.tsx --outfile=index.js --external moment"
+    "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 src/index.tsx --outfile=index.js --external:moment"  
   },
   "author": "",
   "license": "ISC",

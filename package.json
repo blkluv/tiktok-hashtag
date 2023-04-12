@@ -4,7 +4,7 @@
   "description": "TikTok hashtag NFT tracker built by The Wizard of Hahz",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 --external:moment src/index.tsx --outfile=index.js"    
+    "build": "esbuild --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge18 src/index.tsx --outfile=index.js"
   },
   "author": "",
   "license": "ISC",
